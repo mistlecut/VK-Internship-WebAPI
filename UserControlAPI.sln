@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlAPI", "UserControlAPI.csproj", "{9FAFDB3C-D044-4654-BA33-3AAA38F40644}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC783EAB-8521-490C-B9FA-F9593C590B6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{523B28B4-30AC-467F-AF7B-BC92A87FC094}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,8 @@ Global
 		{9FAFDB3C-D044-4654-BA33-3AAA38F40644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FAFDB3C-D044-4654-BA33-3AAA38F40644}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FAFDB3C-D044-4654-BA33-3AAA38F40644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FAFDB3C-D044-4654-BA33-3AAA38F40644} = {EC783EAB-8521-490C-B9FA-F9593C590B6E}
 	EndGlobalSection
 EndGlobal
